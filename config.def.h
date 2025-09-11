@@ -7,15 +7,15 @@ static int min_width = 500;                    /* minimum width when centered */
 static int fuzzy  = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-  "IosevkaTerm Nerd Font:size=12",
-  "Noto Color Emoji:size=12:antialias=true:autohint=true",
+	"IosevkaTerm Nerd Font:size=12",
+	"Noto Color Emoji:size=12:antialias=true:autohint=true",
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-  /*     fg         bg       */
-  [SchemeNorm] = { "#bbbbbb", "#222222" },
-  [SchemeSel] = { "#0a0a0a", "#c7c7c7" },
-  [SchemeOut] = { "#000000", "#00ffff" },
+	/*     fg         bg       */
+	[SchemeNorm] = { "#bbbbbb", "#222222" },
+	[SchemeSel] = { "#0a0a0a", "#c7c7c7" },
+	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
