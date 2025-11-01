@@ -14,3 +14,9 @@
 |-|-|
 |-c|Center dmenu|
 |-F|Fuzzy matching|
+
+## Keybinds
+
+|Bind|Action|
+|-|-|
+|Ctrl + Shift + v|Paste|
