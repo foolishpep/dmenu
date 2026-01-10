@@ -5,18 +5,18 @@
 - Border
 - Center
 - Desktoponly
-- Xresources
 - Fuzzy match
+- Xresources
 
 ## Flags
 
-|Flag|Function|
-|-|-|
-|-c|Center dmenu|
-|-F|Fuzzy matching|
+| Flag | Function       |
+| ---- | -------------- |
+| -c   | Center dmenu   |
+| -F   | Fuzzy matching |
 
 ## Keybinds
 
-|Bind|Action|
-|-|-|
-|Ctrl + Shift + v|Paste|
+| Bind             | Action |
+| ---------------- | ------ |
+| Ctrl + Shift + v | Paste  |
